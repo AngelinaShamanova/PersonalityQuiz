@@ -101,10 +101,10 @@
 		FAE1648D247E762100F2C948 /* PersonalityQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				FA080510247FC1F90060CB17 /* View */,
-				FA080511247FC2220060CB17 /* Supporting Files */,
-				FA08050E247FC1C90060CB17 /* Controller */,
 				FA08050F247FC1D80060CB17 /* Model */,
+				FA080510247FC1F90060CB17 /* View */,
+				FA08050E247FC1C90060CB17 /* Controller */,
+				FA080511247FC2220060CB17 /* Supporting Files */,
 				FA22F2F9247FC2DD009F24C8 /* Resources */,
 			);
 			path = PersonalityQuiz;
