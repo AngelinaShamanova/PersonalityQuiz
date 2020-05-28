@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FA08050D247FC1A40060CB17 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA08050C247FC1A40060CB17 /* Question.swift */; };
+		FA22F2FB247FC44E009F24C8 /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22F2FA247FC44E009F24C8 /* ResponseType.swift */; };
+		FA22F2FD247FC526009F24C8 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22F2FC247FC526009F24C8 /* Answer.swift */; };
+		FA22F2FF247FC590009F24C8 /* AnimalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22F2FE247FC590009F24C8 /* AnimalType.swift */; };
 		FAE1648F247E762100F2C948 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1648E247E762100F2C948 /* AppDelegate.swift */; };
 		FAE16491247E762100F2C948 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE16490247E762100F2C948 /* SceneDelegate.swift */; };
 		FAE16493247E762100F2C948 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE16492247E762100F2C948 /* ViewController.swift */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		FA08050C247FC1A40060CB17 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		FA22F2FA247FC44E009F24C8 /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
+		FA22F2FC247FC526009F24C8 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		FA22F2FE247FC590009F24C8 /* AnimalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalType.swift; sourceTree = "<group>"; };
 		FAE1648B247E762100F2C948 /* PersonalityQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalityQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE1648E247E762100F2C948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE16490247E762100F2C948 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				FA08050C247FC1A40060CB17 /* Question.swift */,
+				FA22F2FA247FC44E009F24C8 /* ResponseType.swift */,
+				FA22F2FC247FC526009F24C8 /* Answer.swift */,
+				FA22F2FE247FC590009F24C8 /* AnimalType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,7 +193,10 @@
 				FAE16493247E762100F2C948 /* ViewController.swift in Sources */,
 				FA08050D247FC1A40060CB17 /* Question.swift in Sources */,
 				FAE1648F247E762100F2C948 /* AppDelegate.swift in Sources */,
+				FA22F2FD247FC526009F24C8 /* Answer.swift in Sources */,
+				FA22F2FB247FC44E009F24C8 /* ResponseType.swift in Sources */,
 				FAE16491247E762100F2C948 /* SceneDelegate.swift in Sources */,
+				FA22F2FF247FC590009F24C8 /* AnimalType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
