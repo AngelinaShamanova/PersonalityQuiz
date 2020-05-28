@@ -74,6 +74,14 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FA22F2F9247FC2DD009F24C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAE16497247E762300F2C948 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		FAE16482247E762100F2C948 = {
 			isa = PBXGroup;
 			children = (
@@ -97,7 +105,7 @@
 				FA080511247FC2220060CB17 /* Supporting Files */,
 				FA08050E247FC1C90060CB17 /* Controller */,
 				FA08050F247FC1D80060CB17 /* Model */,
-				FAE16497247E762300F2C948 /* Assets.xcassets */,
+				FA22F2F9247FC2DD009F24C8 /* Resources */,
 			);
 			path = PersonalityQuiz;
 			sourceTree = "<group>";
