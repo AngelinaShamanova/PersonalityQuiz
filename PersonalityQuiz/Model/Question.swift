@@ -39,7 +39,7 @@ extension Question {
                 Answer(text: "Ненавижу", type: .dog),
                 Answer(text: "Нервничаю", type: .cat),
                 Answer(text: "Не замечаю", type: .rabbit),
-                Answer(text: "Обожаю", type: .turle)
+                Answer(text: "Обожаю ", type: .turle)
             ]
             ),
         ]
