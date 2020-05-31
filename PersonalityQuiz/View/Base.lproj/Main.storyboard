@@ -96,21 +96,33 @@
                                         <rect key="frame" x="111" y="0.0" width="58" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="singleAnswerButtonPressed:" destination="Lny-Q6-nfu" eventType="touchUpInside" id="TDq-2c-zqz"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O7d-wa-V72">
                                         <rect key="frame" x="111" y="54" width="58" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="singleAnswerButtonPressed:" destination="Lny-Q6-nfu" eventType="touchUpInside" id="gAx-Ts-V81"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RV5-He-tnL">
                                         <rect key="frame" x="111" y="108" width="58" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="singleAnswerButtonPressed:" destination="Lny-Q6-nfu" eventType="touchUpInside" id="IKr-xf-lxr"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUK-og-ot6">
                                         <rect key="frame" x="111" y="162" width="58" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="singleAnswerButtonPressed:" destination="Lny-Q6-nfu" eventType="touchUpInside" id="CcD-yq-Hh3"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -177,6 +189,9 @@
                                         <rect key="frame" x="0.0" y="156" width="280" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Ответить"/>
+                                        <connections>
+                                            <action selector="multipleAnswerButtonPressed" destination="Lny-Q6-nfu" eventType="touchUpInside" id="Y3D-BH-cLa"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -210,6 +225,9 @@
                                         <rect key="frame" x="0.0" y="74" width="280" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Ответить"/>
+                                        <connections>
+                                            <action selector="rangedAnswerButtonPressed" destination="Lny-Q6-nfu" eventType="touchUpInside" id="UOV-Ih-PZa"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -309,10 +327,14 @@
                     <navigationItem key="navigationItem" title="Результаты" id="E1P-IS-3I4">
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="JOV-oY-aDI">
                             <connections>
-                                <segue destination="Taf-Li-cnq" kind="unwind" unwindAction="unwindSegue:" id="iRg-aX-qYX"/>
+                                <segue destination="Taf-Li-cnq" kind="unwind" unwindAction="unwindSegue:" id="DsN-oZ-Ox7"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="resultAnswerLabel" destination="cPL-UM-GTS" id="RbR-i9-fOH"/>
+                        <outlet property="resultDefinitionLabel" destination="mVa-9x-2je" id="jx0-OY-QE4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kyT-nY-5Ig" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="Taf-Li-cnq" userLabel="Exit" sceneMemberID="exit"/>
